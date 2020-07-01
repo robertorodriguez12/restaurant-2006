@@ -21,11 +21,11 @@ class Restaurant
   end
 
   def menu_dish_names
-    names.upcased = []
+    names_upcased = []
     @dishes.each do |dish|
-      name.upcased << dish.upcase
+      names_upcased << dish.upcase
     end
-    names.upcased
+    names_upcased
   end
 
 end
