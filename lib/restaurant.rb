@@ -27,5 +27,4 @@ class Restaurant
     end
     names_upcased
   end
-
 end
